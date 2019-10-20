@@ -3,14 +3,14 @@
 Implement a web page, which contains 3 tabs (Upcoming Campaigns, Live Campaign, Past campaigns) as defined in
 the following mockup.
 
+![alt text](http://cdn3.bluestacks.com/Interviews/Front-end/Dashboard%402x.png "Mockup")
+
 * Each tab should show relevant data based on the status of campaign (upcoming, live, past).
 * The very first column should show the time diff from today to that campaign's date. (You can consider
 any date. If the date is in the future, you can show the number of days in the future. For example, **"23
 days ahead"**)
-* Add functionality to reschedule a campaign by opening a calendar on clicking the schedule
-again icon. (Whatever date you select, should be shown in the first column named **"Date"**. The
-time diff shown against it should also be updated)
-* Clicking on any item in the row should show a modal with relevant information. See the design in the Specs section below 
+* Add functionality to reschedule a campaign by opening a calendar on clicking the **Schedule again** icon. (Whatever date you select, should be shown in the first column named **"Date"**. The time diff shown against it should also be updated)
+* Clicking on **View Pricing**  in the row should show a modal with relevant information. See the design in the Specs section below 
 * Entire UI should be responsive.
 * UI should be same regarding color schemes and layout, button states etc. The assets are provided in the Specs section
 * Please use dummy json to populate the table. For reference you can see the **Need Help?** section below
@@ -24,6 +24,9 @@ Once you are done, please share with us:
 2. URL where you have hosted the project
 
 # Specs
+
+* UI Design specs.[Click Here](https://invis.io/26UEIETGDRT)
+* Assets. [Click Here](http://cdn3.bluestacks.com/Interviews/Front-end/Front-End.zip) 
 
 # Need Help?
 
