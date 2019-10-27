@@ -9,19 +9,27 @@ the following mockup.
 * The very first column should show the time diff from today to that campaign's date. (You can consider
 any date. If the date is in the future, you can show the number of days in the future. For example, **"23
 days ahead"**)
-* Add functionality to reschedule a campaign by opening a calendar on clicking the **Schedule again** icon. (Whatever date you select, should be shown in the first column named **"Date"**. The time diff shown against it should also be updated)
-* Clicking on **View Pricing**  in the row should show a modal with relevant information. See the design in the Specs section below 
+* Add functionality to reschedule a campaign by opening a calendar on clicking the **Schedule again** icon. (Whatever date you select, should be shown in the first column named **"Date"**. The time diff shown against it should also be updated).
+* Once the date is changed of campaign. The campaign should move to the relevant Tab (Upcoming,Live,Past) , based on the date selected.
+* Clicking on **View Pricing**  in the row should show a modal with relevant information of the campaign. See the design in the Specs section below 
 * Entire UI should be responsive.
 * UI should be same regarding color schemes and layout, button states etc. The assets are provided in the Specs section
 * Please use dummy json to populate the table. For reference you can see the **Need Help?** section below
 * You should use a modern frontend framework like **ReactJS**, **AngularJS**, **VueJS** etc to
 implement this.
-* It should support basic localization of strings in 2 languages. There should be a button to select
-between different languages. **(Optional bonus point)**
+* It should support basic localization of strings in 2 languages. There should be a button to select between different languages. **(Optional bonus point)**
+
+# Deliverables
 
 Once you are done, please share with us:
 1. Source code link (GitHub, BitBucket, etc)
 2. URL where you have hosted the project
+3. Share the testcases for how you will test this Webpage in following format
+
+|Description | Execution steps | Expected output|
+|--- | --- | ---|
+|Localization |Select German language from Language selector dropdown | Header data,x days ago,x days ahead,Tabs text should be shown in german|
+|Campaign Date change | Select today's date in Past Campaign tab for any campaign | The campaign should be removed from Past campaign tab and appear in Live Campaign tab| 
 
 # Specs
 
