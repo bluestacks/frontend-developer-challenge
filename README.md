@@ -23,13 +23,19 @@ implement this.
 
 Once you are done, please share with us:
 1. Source code link (GitHub, BitBucket, etc)
-2. URL where you have hosted the project
+2. URL where you have hosted the project. **This step is very important** 
 3. Share the testcases for how you will test this Webpage in following format
 
 |Description | Execution steps | Expected output|
 |--- | --- | ---|
 |Localization |Select German language from Language selector dropdown | Header data,x days ago,x days ahead,Tabs text should be shown in german|
 |Campaign Date change | Select today's date in Past Campaign tab for any campaign | The campaign should be removed from Past campaign tab and appear in Live Campaign tab| 
+
+# Important things
+
+* Modularize your code well. Putting everything in one file is not good.
+* Use external DB/cache if required. Storing on local files and local variables is not desirable.
+* Put proper comments in code , so that we can understand the function usage etc..
 
 # Specs
 
