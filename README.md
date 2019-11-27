@@ -12,7 +12,7 @@ days ahead"**)
 * Add functionality to reschedule a campaign by opening a calendar on clicking the **Schedule again** icon. (Whatever date you select, should be shown in the first column named **"Date"**. The time diff shown against it should also be updated).
 * Once the date is changed of campaign. The campaign should move to the relevant Tab (Upcoming,Live,Past) , based on the date selected.
 * Clicking on **View Pricing**  in the row should show a modal with relevant information of the campaign. See the design in the Specs section below 
-* Entire UI should be responsive.
+* **Entire UI should be responsive.**. Please use your judgement on how it should look on mobile devices
 * UI should be same regarding color schemes and layout, button states etc. The assets are provided in the Specs section
 * Please use dummy json to populate the table. For reference you can see the **Need Help?** section below
 * You should use a modern frontend framework like **ReactJS**, **AngularJS**, **VueJS** etc to
