@@ -39,7 +39,7 @@ Once you are done, please share with us:
 
 # Specs
 
-* UI Design specs.[Click Here](https://invis.io/26UEIETGDRT)
+* UI Design specs.[Click Here](https://www.figma.com/file/RVDVlcKRF1gRGX7jUiu820/Front-End?node-id=0%3A1)
 * Assets. [Click Here](http://cdn3.bluestacks.com/Interviews/Front-end/Front-End.zip) 
 
 # Need Help?
