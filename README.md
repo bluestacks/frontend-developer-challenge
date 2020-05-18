@@ -23,7 +23,7 @@ implement this.
 
 Once you are done, please share with us:
 1. Source code link (GitHub, BitBucket, etc)
-2. URL where you have hosted the project. **This step is very important** 
+2. URL where you have **deployed** the project. You need to deploy the WebApp on some cloud platform and provide us the URL for the same. **This step is very important** 
 3. Share the testcases for how you will test this Webpage in following format
 
 |Description | Execution steps | Expected output|
